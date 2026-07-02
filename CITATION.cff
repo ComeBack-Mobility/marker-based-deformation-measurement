@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: Marker-Based Deformation Measurement
+message: If you use this repository, please cite this repository. After article acceptance, please cite both the repository and the associated article.
+authors:
+  - family-names: Bilyi
+    given-names: Vladyslav
+    orcid: https://orcid.org/0000-0002-7471-8651
+    affiliation: Frantsevich Institute for Problems of Materials Science National Academy of Sciences of Ukraine; ComeBack Mobility
+version: 0.1.0
+date-released: "2026-06-26"
+license: PolyForm-Noncommercial-1.0.0
+repository-code: https://github.com/vladbi-cbm/marker-based-deformation-measurement
+abstract: Source-available research software and Bone 2 example data for marker-based photogrammetric deformation measurement from sequential images.
+keywords:
+  - biomechanics
+  - photogrammetry
+  - deformation measurement
+  - marker tracking
+  - fracture fixation

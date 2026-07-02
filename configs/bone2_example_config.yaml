@@ -1,0 +1,45 @@
+﻿bone: Bone 2
+figure_x: docs/figure_x_reference/Fig X Workflow.png
+examples:
+  bending_in_sagittal_plane:
+    label: Bending in sagittal plane
+    raw_images: example_data/Bone_2/bending_in_sagittal_plane/raw_images
+    load_steps: [0, 10, 20, 30, 40]
+    alignment:
+      enabled: true
+      method: rigid_ecc_translation_rotation
+      ecc_threshold: 0.99
+      ecc_iterations: 200
+      ecc_epsilon: 1.0e-06
+      blur_kernel: 5
+      search_margin_px: 0
+      roi_xywh: [867, 2043, 252, 271]
+      roi_selection_output: example_data/Bone_2/bending_in_sagittal_plane/roi_reference
+    marker_pairs:
+      whole_bone:
+        label: Whole-bone
+        pair: [2, 6]
+        params: example_data/Bone_2/bending_in_sagittal_plane/marker_pairs/whole_bone_2_to_6/params.yaml
+      fracture_zone:
+        label: Fracture zone
+        pair: [3, 5]
+        params: example_data/Bone_2/bending_in_sagittal_plane/marker_pairs/fracture_zone_3_to_5/params.yaml
+  compression:
+    label: Compression
+    raw_images: example_data/Bone_2/compression/raw_images
+    load_steps: [0, 100, 200, 300, 400]
+    alignment:
+      enabled: false
+    marker_pairs:
+      whole_bone:
+        label: Whole-bone
+        pair: [4, 7]
+        params: example_data/Bone_2/compression/marker_pairs/whole_bone_4_to_7/params.yaml
+      fracture_zone:
+        label: Fracture zone
+        pair: [6, 1]
+        params: example_data/Bone_2/compression/marker_pairs/fracture_zone_6_to_1/params.yaml
+terminology:
+  x_axis: normal to load direction
+  y_axis: in load direction
+

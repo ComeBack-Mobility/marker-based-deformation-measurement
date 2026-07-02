@@ -1,0 +1,26 @@
+input_folder: D:\Sync\Import of CT to FEM\Mini val study\Experiment\Marker-detector\Pictures\Bending
+  main\Bone 2\Originals
+params_yaml: D:\Sync\Import of CT to FEM\Mini val study\Experiment\Marker-detector\Pictures\Bending
+  main\Bone 2\2 to 3\params.yaml
+reference_image: _APL3425.JPG
+anchor_marker_number: 2
+track_previous: false
+max_marker_jump: 70.0
+fit_parameters:
+  ecc_iterations: 200
+  ecc_epsilon: 1.0e-06
+  blur_kernel: 5
+  search_margin_px: 0
+roi_xywh_on_reference:
+  x: 867
+  y: 2043
+  w: 252
+  h: 271
+reference_anchor_marker_xy:
+  x: 1407.8072736709628
+  y: 2197.8431062552067
+roi_relative_to_anchor_marker:
+  x0: -540.8072736709628
+  y0: -154.84310625520675
+  x1: -288.8072736709628
+  y1: 116.15689374479325

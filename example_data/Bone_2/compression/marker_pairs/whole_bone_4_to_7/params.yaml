@@ -1,0 +1,25 @@
+calibration_value_str: ((18**2+416**2)**(1/2))/28
+calibration_value: 14.87104432054701
+load_arr:
+- 0
+- 100
+- 200
+- 300
+- 400
+circle_radius: 35
+red_thresh_high: 110
+green_thresh_high: 110
+blue_thresh_high: 110
+grey_delta: 30
+angle_tol: 10.0
+min_cluster_size: 5
+lower_green:
+- 35
+- 90
+- 60
+upper_green:
+- 100
+- 255
+- 255
+track_previous: true
+max_marker_jump: 70.0

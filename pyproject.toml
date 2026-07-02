@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deformation-measurement-protocol"
+version = "0.1.0"
+description = "Source-available Bone 2 deformation measurement protocol example"
+requires-python = ">=3.10"
+dependencies = ["opencv-python", "numpy", "matplotlib", "scikit-image", "scikit-learn", "PyYAML", "Pillow", "scipy"]
+
+[project.scripts]
+deformation-protocol = "deformation_protocol.cli:main"
